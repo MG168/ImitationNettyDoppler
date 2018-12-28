@@ -20,7 +20,7 @@ public class DebugUtils {
             Log.e(tag, title + "---------------------->" + msg);
     }
 
-    public static void debug_Timber(String tag, String msg) {
+    public static void debugLog_Timber(String tag, String msg) {
         if (BuildConfig.LOG_DEBUG) Timber.e(msg);
     }
 }
